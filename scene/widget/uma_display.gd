@@ -9,12 +9,12 @@ class_name UmaDisplay
 @onready var label_4 : Label = $ValuesContainer/HBoxContainer/Fourth
 
 func set_values(new_name : String, values : Array[float]):
-	name_label.text = new_name
+    name_label.text = new_name
 
-	label_1.text = str(values[0])
-	label_2.text = str(values[1])
-	label_3.text = str(values[2])
-	if values.size() > 3:
-		label_4.text = str(values[3])
-	else:
-		label_4.visible = false
+    label_1.text = str(values[0])
+    label_2.text = str(values[1])
+    label_3.text = str(values[2])
+    if values.size() > 3:
+        label_4.text = str(values[3])
+    else:
+        label_4.visible = false

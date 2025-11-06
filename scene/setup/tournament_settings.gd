@@ -47,137 +47,137 @@ var TournamentSettingsPreviewScene = preload("res://scene/setup/tournament_setti
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	start_tournament_button.pressed.connect(_start_tournament)
+    start_tournament_button.pressed.connect(_start_tournament)
 
-	game_type_dropdown.item_selected.connect(_switch_game_type)
-	uma_type_dropdown.item_selected.connect(_switch_uma_type)
+    game_type_dropdown.item_selected.connect(_switch_game_type)
+    uma_type_dropdown.item_selected.connect(_switch_uma_type)
 
-	fixed_uma.set_defaults([30, 10, -10, -30])
+    fixed_uma.set_defaults([30, 10, -10, -30])
 
-	floating_uma_1.set_defaults([15, 5, -5, -15])
-	floating_uma_2.set_defaults([15, 5, 0, -20])
-	floating_uma_3.set_defaults([20, 0, -5, -15])
+    floating_uma_1.set_defaults([15, 5, -5, -15])
+    floating_uma_2.set_defaults([15, 5, 0, -20])
+    floating_uma_3.set_defaults([20, 0, -5, -15])
 
-	floating_uma_1.set_title("Uma (0 or 2 Players >= Return)")
-	floating_uma_2.set_title("Uma (3 Players >= Return)")
-	floating_uma_3.set_title("Uma (1 Player >= Return)")
+    floating_uma_1.set_title("Uma (0 or 2 Players >= Return)")
+    floating_uma_2.set_title("Uma (3 Players >= Return)")
+    floating_uma_3.set_title("Uma (1 Player >= Return)")
 
-	oka.set_title("Oka")
+    oka.set_title("Oka")
 
-	advanced_settings_button.toggled.connect(_toggle_advanced_settings)
+    advanced_settings_button.toggled.connect(_toggle_advanced_settings)
 
-	shuugi_settings_button.toggled.connect(_toggle_shuugi)
+    shuugi_settings_button.toggled.connect(_toggle_shuugi)
 
 func _switch_game_type(selected : int):
-	if selected == 0:
-		fixed_uma.set_player_count(4)
-		floating_uma_1.set_player_count(4)
-		floating_uma_2.set_player_count(4)
-		floating_uma_3.set_player_count(4)
+    if selected == 0:
+        fixed_uma.set_player_count(4)
+        floating_uma_1.set_player_count(4)
+        floating_uma_2.set_player_count(4)
+        floating_uma_3.set_player_count(4)
 
-		fixed_uma.set_defaults([30, 10, -10, -30])
+        fixed_uma.set_defaults([30, 10, -10, -30])
 
-		floating_uma_1.set_defaults([15, 5, -5, -15])
-		floating_uma_2.set_defaults([15, 5, 0, -20])
-		floating_uma_3.set_defaults([20, 0, -5, -15])
+        floating_uma_1.set_defaults([15, 5, -5, -15])
+        floating_uma_2.set_defaults([15, 5, 0, -20])
+        floating_uma_3.set_defaults([20, 0, -5, -15])
 
-		floating_uma_1.set_title("Uma (0 or 2 or 4 Players >= Return)")
-		floating_uma_2.set_title("Uma (3 Players >= Return)")
-		floating_uma_3.set_title("Uma (1 Player >= Return)")
+        floating_uma_1.set_title("Uma (0 or 2 or 4 Players >= Return)")
+        floating_uma_2.set_title("Uma (3 Players >= Return)")
+        floating_uma_3.set_title("Uma (1 Player >= Return)")
 
-		floating_uma_3.visible = true
-	else:
-		fixed_uma.set_player_count(3)
-		floating_uma_1.set_player_count(3)
-		floating_uma_2.set_player_count(3)
-		floating_uma_3.set_player_count(3)
+        floating_uma_3.visible = true
+    else:
+        fixed_uma.set_player_count(3)
+        floating_uma_1.set_player_count(3)
+        floating_uma_2.set_player_count(3)
+        floating_uma_3.set_player_count(3)
 
-		fixed_uma.set_defaults([30, 0, -30])
+        fixed_uma.set_defaults([30, 0, -30])
 
-		floating_uma_1.set_defaults([30, 0, -30])
-		floating_uma_2.set_defaults([20, 10, -30])
+        floating_uma_1.set_defaults([30, 0, -30])
+        floating_uma_2.set_defaults([20, 10, -30])
 
-		floating_uma_1.set_title("Uma (0 or 1 or 3 Players >= Return)")
-		floating_uma_2.set_title("Uma (2 Players >= Return)")
+        floating_uma_1.set_title("Uma (0 or 1 or 3 Players >= Return)")
+        floating_uma_2.set_title("Uma (2 Players >= Return)")
 
-		floating_uma_3.visible = false
+        floating_uma_3.visible = false
 
 func _switch_uma_type(selected : int):
-	if selected == 0:
-		fixed_uma.visible = true
-		floating_uma_1.visible = false
-		floating_uma_2.visible = false
-		floating_uma_3.visible = false
-	else:
-		fixed_uma.visible = false
-		floating_uma_1.visible = true
-		floating_uma_2.visible = true
-		if game_type_dropdown.selected == 0:
-			floating_uma_3.visible = true
-		else:
-			floating_uma_3.visible = false
+    if selected == 0:
+        fixed_uma.visible = true
+        floating_uma_1.visible = false
+        floating_uma_2.visible = false
+        floating_uma_3.visible = false
+    else:
+        fixed_uma.visible = false
+        floating_uma_1.visible = true
+        floating_uma_2.visible = true
+        if game_type_dropdown.selected == 0:
+            floating_uma_3.visible = true
+        else:
+            floating_uma_3.visible = false
 
 func _toggle_advanced_settings(toggled : bool):
-	if toggled:
-		advanced_settings_container.visible = true
-	else:
-		advanced_settings_container.visible = false
+    if toggled:
+        advanced_settings_container.visible = true
+    else:
+        advanced_settings_container.visible = false
 
 func _toggle_shuugi(toggled : bool):
-	if toggled:
-		shuugi_settings_container.visible = true
-	else:
-		shuugi_settings_container.visible = false
+    if toggled:
+        shuugi_settings_container.visible = true
+    else:
+        shuugi_settings_container.visible = false
 
 func _start_tournament():
-	var tournament = Tournament.new()
-	var tournament_settings = tournament.settings
+    var tournament = Tournament.new()
+    var tournament_settings = tournament.settings
 
-	tournament.name = tournament_name.text
-	
-	tournament_settings.game_type = game_type_dropdown.selected
-	tournament_settings.uma_type = uma_type_dropdown.selected
+    tournament.name = tournament_name.text
+    
+    tournament_settings.game_type = game_type_dropdown.selected
+    tournament_settings.uma_type = uma_type_dropdown.selected
 
-	if uma_type_dropdown.selected == 0:
-		tournament_settings.fixed_uma = fixed_uma.export()
-	else:
-		tournament_settings.floating_uma_1 = floating_uma_1.export()
-		tournament_settings.floating_uma_2 = floating_uma_2.export()
-		if game_type_dropdown.selected == 0:
-			tournament_settings.floating_uma_3 = floating_uma_3.export()
-	
-	tournament_settings.tiebreak_strategy = tiebreak_dropdown.selected
-	
-	tournament_settings.start_points = start_value.get_value()
-	tournament_settings.return_points = return_value.get_value()
+    if uma_type_dropdown.selected == 0:
+        tournament_settings.fixed_uma = fixed_uma.export()
+    else:
+        tournament_settings.floating_uma_1 = floating_uma_1.export()
+        tournament_settings.floating_uma_2 = floating_uma_2.export()
+        if game_type_dropdown.selected == 0:
+            tournament_settings.floating_uma_3 = floating_uma_3.export()
+    
+    tournament_settings.tiebreak_strategy = tiebreak_dropdown.selected
+    
+    tournament_settings.start_points = start_value.get_value()
+    tournament_settings.return_points = return_value.get_value()
 
-	tournament_settings.oka = oka.export()
+    tournament_settings.oka = oka.export()
 
-	tournament_settings.time_per_round_minutes = round_timer_mins.get_value()
-	tournament_settings.pairing_system = pairing_type.selected
+    tournament_settings.time_per_round_minutes = round_timer_mins.get_value()
+    tournament_settings.pairing_system = pairing_type.selected
 
-	tournament_settings.assign_seat_winds = assign_winds_button.button_pressed
-	tournament_settings.riichi_sticks_strategy = riichi_sticks_strategy.selected
+    tournament_settings.assign_seat_winds = assign_winds_button.button_pressed
+    tournament_settings.riichi_sticks_strategy = riichi_sticks_strategy.selected
 
-	if advanced_settings_button.button_pressed:
-		tournament_settings.advanced_settings = true
-		tournament_settings.score_per_thousand_points = score_per_thousand.get_value()
+    if advanced_settings_button.button_pressed:
+        tournament_settings.advanced_settings = true
+        tournament_settings.score_per_thousand_points = score_per_thousand.get_value()
 
-		if shuugi_settings_button.button_pressed:
-			tournament_settings.shuugi = true
-			tournament_settings.start_shuugi = shuugi_start_value.get_value()
-			tournament_settings.end_shuugi = shuugi_return_value.get_value()
-			tournament_settings.score_per_shuugi = score_per_shuugi.get_value()
-		else:
-			tournament_settings.shuugi = false
-	else:
-		tournament_settings.advanced_settings = false
-		tournament_settings.shuugi = false
+        if shuugi_settings_button.button_pressed:
+            tournament_settings.shuugi = true
+            tournament_settings.start_shuugi = shuugi_start_value.get_value()
+            tournament_settings.end_shuugi = shuugi_return_value.get_value()
+            tournament_settings.score_per_shuugi = score_per_shuugi.get_value()
+        else:
+            tournament_settings.shuugi = false
+    else:
+        tournament_settings.advanced_settings = false
+        tournament_settings.shuugi = false
 
-	tournament.registered_players = players_pane.export()
-	
-	var preview_scene = TournamentSettingsPreviewScene.instantiate()
-	preview_scene.init(tournament)
+    tournament.registered_players = players_pane.export()
+    
+    var preview_scene = TournamentSettingsPreviewScene.instantiate()
+    preview_scene.init(tournament)
 
-	get_tree().root.add_child(preview_scene)
-	
+    get_tree().root.add_child(preview_scene)
+    

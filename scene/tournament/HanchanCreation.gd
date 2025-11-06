@@ -18,46 +18,46 @@ signal create_table
 signal cancel_table_creation
 
 func _ready():
-	player_id_column.id_changed.connect(set_player_name)
+    player_id_column.id_changed.connect(set_player_name)
 
-	create_table_button.pressed.connect(on_create_table)
-	cancel_button.pressed.connect(on_cancel)
+    create_table_button.pressed.connect(on_create_table)
+    cancel_button.pressed.connect(on_cancel)
 
-	if data_store.tournament.settings.game_type == TournamentSettings.GameType.SANMA:
-		player_id_column.set_column_size(3)
-		player_name_column.set_column_size(3)
-		seat_wind_column.set_column_size(3)
+    if data_store.tournament.settings.game_type == TournamentSettings.GameType.SANMA:
+        player_id_column.set_column_size(3)
+        player_name_column.set_column_size(3)
+        seat_wind_column.set_column_size(3)
 
 func initialize() -> void:
-	new_table = Table.new()
-	visible = true
+    new_table = Table.new()
+    visible = true
 
-	var next_table_id = data_store.get_next_table_id(0)
+    var next_table_id = data_store.get_next_table_id(0)
 
-	new_table.round_id = 0
-	new_table.table_id = next_table_id
+    new_table.round_id = 0
+    new_table.table_id = next_table_id
 
-	round_label.text = "Table %d" % [new_table.table_id]
+    round_label.text = "Table %d" % [new_table.table_id]
 
-	var table_size = 4 if data_store.tournament.settings.game_type == TournamentSettings.GameType.YONMA else 3
+    var table_size = 4 if data_store.tournament.settings.game_type == TournamentSettings.GameType.YONMA else 3
 
-	for i in range(table_size):
-		player_id_column.set_value(i, 0)
-		set_player_name(0, i)
+    for i in range(table_size):
+        player_id_column.set_value(i, 0)
+        set_player_name(0, i)
 
-		seat_wind_column.set_value(i, i)
+        seat_wind_column.set_value(i, i)
 
 func export() -> Table:
-	new_table.player_ids = player_id_column.get_value_arr()
-	new_table.player_seats = seat_wind_column.get_value_arr()
+    new_table.player_ids = player_id_column.get_value_arr()
+    new_table.player_seats = seat_wind_column.get_value_arr()
 
-	return new_table
+    return new_table
 
 func set_player_name(id : int, index : int) -> void:
-	player_name_column.set_text(index, data_store.get_player_name(id))
+    player_name_column.set_text(index, data_store.get_player_name(id))
 
 func on_create_table() -> void:
-	create_table.emit(export())
+    create_table.emit(export())
 
 func on_cancel() -> void:
-	cancel_table_creation.emit()
+    cancel_table_creation.emit()
