@@ -16,6 +16,16 @@ class_name TournamentManagement
 
 @onready var file_dialog : FileDialog = $FileDialog
 
+
+## Show a page `target` and hide all other pages.
+func show_page(target):
+    var windows = [cut_manager,cut_creator,sheets_manager,csv_viewer]
+    windows.erase(target)
+
+    for i in windows:
+        i.visible = false
+    target.visible = true
+
 func _ready():
     create_cut_button.pressed.connect(_on_create_cut)
     manage_cuts_button.pressed.connect(_on_manage_cuts)
@@ -36,17 +46,13 @@ func _ready():
     file_dialog.file_selected.connect(_save_file)
 
 func _on_create_cut():
-    cut_manager.visible = false
-    sheets_manager.visible = false
-    cut_creator.visible = true
+    show_page(cut_creator)
 
 func _on_create_cut_exit():
     cut_creator.visible = false
 
 func _on_manage_cuts():
-    cut_manager.visible = true
-    sheets_manager.visible = false
-    cut_creator.visible = false
+    show_page(cut_manager)
 
 func _on_delete_cut(cut_id : int):
     data_store.delete_cut(cut_id)
@@ -55,9 +61,10 @@ func _on_manage_cuts_exit():
     cut_manager.visible = false
 
 func _on_manage_sheets():
-    cut_manager.visible = false
-    cut_creator.visible = false
-    sheets_manager.visible = true
+    show_page(sheets_manager)
+
+func _on_manage_sheets_exit():
+    sheets_manager.visible = false
 
 func _on_save():
     file_dialog.popup()
@@ -70,11 +77,8 @@ func _save_file(path : String) -> void:
     save_file.close()
 
 func _on_export_csv():
-    csv_viewer.visible = true
+    show_page(csv_viewer)
     csv_viewer.reset()
 
 func _on_csv_export_exit():
     csv_viewer.visible = false
-
-func _on_manage_sheets_exit():
-    sheets_manager.visible = false
