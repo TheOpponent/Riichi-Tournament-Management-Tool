@@ -23,3 +23,18 @@ func export() -> Array[Player]:
         player.affiliation = child.get_text(2)
         players.append(player)
     return players
+
+## Check if a name already exists in the Tree. If the name exists, returns the same name with a 
+## unique number appended, otherwise returns the same name unchanged.
+func check_duplicate_name(name: String) -> String:
+    var new_name := name
+    var counter := 1
+    var names = get_root().get_children()
+    print(names)
+    for i in names:
+        if new_name == i.get_text(1):
+            new_name = name + " %s" % counter
+            counter += 1
+
+    return new_name
+    

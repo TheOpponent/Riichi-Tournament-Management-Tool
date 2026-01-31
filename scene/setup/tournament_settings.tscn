@@ -1,12 +1,12 @@
-[gd_scene load_steps=6 format=3 uid="uid://dupoigxcsxv20"]
+[gd_scene format=3 uid="uid://dupoigxcsxv20"]
 
-[ext_resource type="Script" path="res://scene/setup/tournament_settings.gd" id="1_g6f8p"]
+[ext_resource type="Script" uid="uid://cpecxhgdcyh8o" path="res://scene/setup/tournament_settings.gd" id="1_g6f8p"]
 [ext_resource type="PackedScene" uid="uid://dj7jf4cdfcxsm" path="res://scene/widget/uma_container.tscn" id="2_fb0oh"]
-[ext_resource type="Script" path="res://scene/widget/NumericLineEdit.gd" id="3_ng8op"]
-[ext_resource type="Script" path="res://scene/widget/PlayersInputPane.gd" id="4_44hym"]
-[ext_resource type="Script" path="res://scene/widget/PlayerPreviewTable.gd" id="5_o7qol"]
+[ext_resource type="Script" uid="uid://dnlw1d8c5bwls" path="res://scene/widget/NumericLineEdit.gd" id="3_ng8op"]
+[ext_resource type="Script" uid="uid://cem7onipr2gu0" path="res://scene/widget/PlayersInputPane.gd" id="4_44hym"]
+[ext_resource type="Script" uid="uid://clsh6hh7pg3bv" path="res://scene/widget/PlayerPreviewTable.gd" id="5_o7qol"]
 
-[node name="TournamentSettings" type="Control"]
+[node name="TournamentSettings" type="Control" unique_id=154167133]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -15,7 +15,7 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_g6f8p")
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=35980660]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -24,7 +24,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="HBoxContainer" type="HBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=614324540]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -32,670 +32,670 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="SettingsPane" type="VBoxContainer" parent="HBoxContainer"]
+[node name="SettingsPane" type="VBoxContainer" parent="HBoxContainer" unique_id=612965335]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="TitleContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane"]
+[node name="TitleContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane" unique_id=1830821001]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TitleLabel" type="Label" parent="HBoxContainer/SettingsPane/TitleContainer"]
+[node name="TitleLabel" type="Label" parent="HBoxContainer/SettingsPane/TitleContainer" unique_id=1067220280]
 layout_mode = 2
 text = "Tournament Settings"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TournamentNameContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="TournamentNameContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=357559825]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer" unique_id=476013135]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer" unique_id=1516786205]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer/MarginContainer" unique_id=1636130068]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Tournament Name"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer" unique_id=301646685]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer2" unique_id=553307996]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TournamentName" type="LineEdit" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer2/MarginContainer"]
+[node name="TournamentName" type="LineEdit" parent="HBoxContainer/SettingsPane/TournamentNameContainer/HBoxContainer2/MarginContainer" unique_id=207542197]
 layout_mode = 2
 text = "My Awesome Mahjong Tournament"
 placeholder_text = "My Awesome Mahjong Tournament"
 
-[node name="GameTypeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="GameTypeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=1300260961]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer" unique_id=408815132]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer" unique_id=1889734314]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer/MarginContainer" unique_id=1228062778]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Game Type"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer" unique_id=953412464]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer2" unique_id=666270415]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="GameType" type="OptionButton" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer2/MarginContainer"]
+[node name="GameType" type="OptionButton" parent="HBoxContainer/SettingsPane/GameTypeContainer/HBoxContainer2/MarginContainer" unique_id=541998928]
 layout_mode = 2
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "Yonma"
 popup/item_0/id = 0
 popup/item_1/text = "Sanma"
 popup/item_1/id = 1
 
-[node name="UmaTypeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="UmaTypeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=83239351]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer" unique_id=746610451]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer" unique_id=647778806]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer/MarginContainer" unique_id=12198506]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Uma Type"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer" unique_id=151679244]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer2" unique_id=2022484498]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="UmaType" type="OptionButton" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer2/MarginContainer"]
+[node name="UmaType" type="OptionButton" parent="HBoxContainer/SettingsPane/UmaTypeContainer/HBoxContainer2/MarginContainer" unique_id=273191564]
 layout_mode = 2
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "Fixed"
 popup/item_0/id = 0
 popup/item_1/text = "Floating"
 popup/item_1/id = 1
 
-[node name="UmaContainer" parent="HBoxContainer/SettingsPane" instance=ExtResource("2_fb0oh")]
+[node name="UmaContainer" parent="HBoxContainer/SettingsPane" unique_id=1184739345 instance=ExtResource("2_fb0oh")]
 layout_mode = 2
 
-[node name="UmaContainer1" parent="HBoxContainer/SettingsPane" instance=ExtResource("2_fb0oh")]
+[node name="UmaContainer1" parent="HBoxContainer/SettingsPane" unique_id=842713161 instance=ExtResource("2_fb0oh")]
 visible = false
 layout_mode = 2
 
-[node name="UmaContainer2" parent="HBoxContainer/SettingsPane" instance=ExtResource("2_fb0oh")]
+[node name="UmaContainer2" parent="HBoxContainer/SettingsPane" unique_id=944353065 instance=ExtResource("2_fb0oh")]
 visible = false
 layout_mode = 2
 
-[node name="UmaContainer3" parent="HBoxContainer/SettingsPane" instance=ExtResource("2_fb0oh")]
+[node name="UmaContainer3" parent="HBoxContainer/SettingsPane" unique_id=1283752965 instance=ExtResource("2_fb0oh")]
 visible = false
 layout_mode = 2
 
-[node name="TiebreakContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="TiebreakContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=1238556039]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer" unique_id=2080068070]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer" unique_id=1488381613]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer/MarginContainer" unique_id=624637437]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Tiebreak Strategy"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer" unique_id=254808459]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer2" unique_id=1707356514]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="TiebreakDropdown" type="OptionButton" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer2/MarginContainer"]
+[node name="TiebreakDropdown" type="OptionButton" parent="HBoxContainer/SettingsPane/TiebreakContainer/HBoxContainer2/MarginContainer" unique_id=1706134933]
 layout_mode = 2
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "Wind Order"
 popup/item_0/id = 0
 popup/item_1/text = "Split Uma"
 popup/item_1/id = 1
 
-[node name="StartContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="StartContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=817109500]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/StartContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/StartContainer" unique_id=1205870850]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer" unique_id=967472400]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer/MarginContainer" unique_id=886210823]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Start"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/StartContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/StartContainer" unique_id=244516436]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer2" unique_id=1502487289]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="StartValue" type="LineEdit" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer2/MarginContainer"]
+[node name="StartValue" type="LineEdit" parent="HBoxContainer/SettingsPane/StartContainer/HBoxContainer2/MarginContainer" unique_id=283848793]
 layout_mode = 2
 text = "25000"
 placeholder_text = "25000"
 select_all_on_focus = true
 script = ExtResource("3_ng8op")
 
-[node name="ReturnContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="ReturnContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=875477588]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/ReturnContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/ReturnContainer" unique_id=634854906]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer" unique_id=89563998]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer/MarginContainer" unique_id=968040050]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Return"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/ReturnContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/ReturnContainer" unique_id=1870325308]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer2" unique_id=1098914261]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="ReturnValue" type="LineEdit" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer2/MarginContainer"]
+[node name="ReturnValue" type="LineEdit" parent="HBoxContainer/SettingsPane/ReturnContainer/HBoxContainer2/MarginContainer" unique_id=2019925822]
 layout_mode = 2
 text = "30000"
 placeholder_text = "30000"
 select_all_on_focus = true
 script = ExtResource("3_ng8op")
 
-[node name="OkaContainer" parent="HBoxContainer/SettingsPane" instance=ExtResource("2_fb0oh")]
+[node name="OkaContainer" parent="HBoxContainer/SettingsPane" unique_id=2139847658 instance=ExtResource("2_fb0oh")]
 layout_mode = 2
 
-[node name="RoundTimeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="RoundTimeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=1296507018]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer" unique_id=1142474931]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer" unique_id=963732721]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer/MarginContainer" unique_id=1546996782]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Default Round Timer (Minutes)"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer" unique_id=1159410941]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer2" unique_id=24339818]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="RoundTimeValue" type="LineEdit" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer2/MarginContainer"]
+[node name="RoundTimeValue" type="LineEdit" parent="HBoxContainer/SettingsPane/RoundTimeContainer/HBoxContainer2/MarginContainer" unique_id=46535218]
 layout_mode = 2
 text = "75"
 placeholder_text = "75"
 select_all_on_focus = true
 script = ExtResource("3_ng8op")
 
-[node name="PairingTypeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="PairingTypeContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=214975845]
 visible = false
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer" unique_id=748324419]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer" unique_id=19014899]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer/MarginContainer" unique_id=629700262]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Pairing Strategy"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer" unique_id=160605844]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer2" unique_id=1282025319]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="PairingTypeDropdown" type="OptionButton" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer2/MarginContainer"]
+[node name="PairingTypeDropdown" type="OptionButton" parent="HBoxContainer/SettingsPane/PairingTypeContainer/HBoxContainer2/MarginContainer" unique_id=1648903841]
 layout_mode = 2
-item_count = 2
 selected = 1
+item_count = 2
 popup/item_0/text = "Random"
 popup/item_0/id = 0
 popup/item_1/text = "Progressive Swiss"
 popup/item_1/id = 1
 
-[node name="RiichiSticksContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="RiichiSticksContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=2059756894]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer" unique_id=1265927422]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer" unique_id=36947420]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer/MarginContainer" unique_id=671415857]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Riichi Sticks After All Last"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer" unique_id=2111362934]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer2" unique_id=965644701]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="RiichiSticksDropdown" type="OptionButton" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer2/MarginContainer"]
+[node name="RiichiSticksDropdown" type="OptionButton" parent="HBoxContainer/SettingsPane/RiichiSticksContainer/HBoxContainer2/MarginContainer" unique_id=923932530]
 layout_mode = 2
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "Lost"
 popup/item_0/id = 0
 popup/item_1/text = "Give to First"
 popup/item_1/id = 1
 
-[node name="AssignWindsContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="AssignWindsContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=785445289]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer" unique_id=2072822693]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer" unique_id=1682948259]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer/MarginContainer" unique_id=510945434]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Assign Seat Winds When Generating Pairings"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer" unique_id=55804984]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer2" unique_id=1161293283]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="AssignWindsButton" type="CheckBox" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer2/MarginContainer"]
+[node name="AssignWindsButton" type="CheckBox" parent="HBoxContainer/SettingsPane/AssignWindsContainer/HBoxContainer2/MarginContainer" unique_id=1920351578]
 layout_mode = 2
 button_pressed = true
 icon_alignment = 1
 
-[node name="AdvancedSettingsButton" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="AdvancedSettingsButton" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=1528654223]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton" unique_id=860999466]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer" unique_id=1010540056]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer/MarginContainer" unique_id=903559907]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Advanced Settings"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton" unique_id=2106609475]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer2" unique_id=2129287913]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="AdvancedSettingsButton" type="CheckButton" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer2/MarginContainer"]
+[node name="AdvancedSettingsButton" type="CheckButton" parent="HBoxContainer/SettingsPane/AdvancedSettingsButton/HBoxContainer2/MarginContainer" unique_id=1329415784]
 layout_mode = 2
 icon_alignment = 1
 
-[node name="AdvancedSettingsContainer" type="VBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="AdvancedSettingsContainer" type="VBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=230317549]
 visible = false
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="ScoreSettingContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer"]
+[node name="ScoreSettingContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer" unique_id=173185913]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer" unique_id=2019001044]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer" unique_id=544867207]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer/MarginContainer" unique_id=1674942074]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Score Per 1000 Points"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer" unique_id=1445262769]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer2" unique_id=178887588]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="ScoreSettingInput" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer2/MarginContainer"]
+[node name="ScoreSettingInput" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ScoreSettingContainer/HBoxContainer2/MarginContainer" unique_id=1708477865]
 layout_mode = 2
 text = "1.0"
 placeholder_text = "1.0"
 select_all_on_focus = true
 script = ExtResource("3_ng8op")
 
-[node name="ShuugiSettingsButton" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer"]
+[node name="ShuugiSettingsButton" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer" unique_id=698799333]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton" unique_id=988626229]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer" unique_id=1058059817]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer/MarginContainer" unique_id=1638023092]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Enable Shuugi"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton" unique_id=1423696193]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer2" unique_id=460406046]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="ShuugiSettingsButton" type="CheckButton" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer2/MarginContainer"]
+[node name="ShuugiSettingsButton" type="CheckButton" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiSettingsButton/HBoxContainer2/MarginContainer" unique_id=1293663851]
 layout_mode = 2
 icon_alignment = 1
 
-[node name="ShuugiContainer" type="VBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer"]
+[node name="ShuugiContainer" type="VBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer" unique_id=1060538524]
 visible = false
 layout_mode = 2
 
-[node name="StartContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer"]
+[node name="StartContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer" unique_id=947036329]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer" unique_id=1648686585]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer" unique_id=275090175]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer/MarginContainer" unique_id=1534669611]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Starting Shuugi"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer" unique_id=578205585]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer2" unique_id=668778123]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="StartValue" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer2/MarginContainer"]
+[node name="StartValue" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/StartContainer/HBoxContainer2/MarginContainer" unique_id=1961698818]
 layout_mode = 2
 text = "10"
 placeholder_text = "10"
 select_all_on_focus = true
 script = ExtResource("3_ng8op")
 
-[node name="ReturnContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer"]
+[node name="ReturnContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer" unique_id=433902382]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer" unique_id=1277229657]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer" unique_id=1727903588]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer/MarginContainer" unique_id=539938245]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Return Shuugi"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer" unique_id=1035769293]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer2" unique_id=2007154251]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="ReturnValue" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer2/MarginContainer"]
+[node name="ReturnValue" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ReturnContainer/HBoxContainer2/MarginContainer" unique_id=1461767717]
 layout_mode = 2
 text = "10"
 placeholder_text = "10"
 select_all_on_focus = true
 script = ExtResource("3_ng8op")
 
-[node name="ScoreSettingContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer"]
+[node name="ScoreSettingContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer" unique_id=1457516920]
 layout_mode = 2
 
-[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer"]
+[node name="HBoxContainer" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer" unique_id=1207780004]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer" unique_id=335517573]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer/MarginContainer"]
+[node name="Label" type="Label" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer/MarginContainer" unique_id=716394287]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Score Per Shuugi"
 vertical_alignment = 1
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer"]
+[node name="HBoxContainer2" type="HBoxContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer" unique_id=1585703914]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer2"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer2" unique_id=340713714]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="ScoreSettingInput" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer2/MarginContainer"]
+[node name="ScoreSettingInput" type="LineEdit" parent="HBoxContainer/SettingsPane/AdvancedSettingsContainer/ShuugiContainer/ScoreSettingContainer/HBoxContainer2/MarginContainer" unique_id=1231045707]
 layout_mode = 2
 text = "2.0"
 placeholder_text = "2.0"
 select_all_on_focus = true
 script = ExtResource("3_ng8op")
 
-[node name="Separator" type="HBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="Separator" type="HBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=1113837379]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/SettingsPane"]
+[node name="VBoxContainer" type="VBoxContainer" parent="HBoxContainer/SettingsPane" unique_id=618268328]
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/VBoxContainer"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/SettingsPane/VBoxContainer" unique_id=463946985]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="StartTournamentButton" type="Button" parent="HBoxContainer/SettingsPane/VBoxContainer/MarginContainer"]
+[node name="StartTournamentButton" type="Button" parent="HBoxContainer/SettingsPane/VBoxContainer/MarginContainer" unique_id=112091314]
 layout_mode = 2
 text = "Start Tournament"
 
-[node name="PlayersPane" type="VBoxContainer" parent="HBoxContainer"]
+[node name="PlayersPane" type="VBoxContainer" parent="HBoxContainer" unique_id=1037292849]
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("4_44hym")
 
-[node name="PlayersTitleContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane"]
+[node name="PlayersTitleContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane" unique_id=822376799]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_top = 20
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 5
 
-[node name="PlayersTitleLabel" type="Label" parent="HBoxContainer/PlayersPane/PlayersTitleContainer"]
+[node name="PlayersTitleLabel" type="Label" parent="HBoxContainer/PlayersPane/PlayersTitleContainer" unique_id=161795243]
 layout_mode = 2
 text = "Players"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane"]
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane" unique_id=1619806987]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 10
 
-[node name="PlayerTable" type="Tree" parent="HBoxContainer/PlayersPane/MarginContainer"]
+[node name="PlayerTable" type="Tree" parent="HBoxContainer/PlayersPane/MarginContainer" unique_id=124880170]
 layout_mode = 2
 columns = 3
 column_titles_visible = true
@@ -705,7 +705,7 @@ enable_recursive_folding = false
 hide_root = true
 script = ExtResource("5_o7qol")
 
-[node name="TextEdit" type="TextEdit" parent="HBoxContainer/PlayersPane/MarginContainer"]
+[node name="TextEdit" type="TextEdit" parent="HBoxContainer/PlayersPane/MarginContainer" unique_id=1057994818]
 visible = false
 layout_mode = 2
 placeholder_text = "Paste your CSV here and click Add Player! Player IDs will get automatically assigned!
@@ -715,26 +715,43 @@ Freed Jyanshi, RNNYC
 Unaffiliated Player
 Ichihime, Jantama Jinja"
 
-[node name="HBoxContainer" type="VBoxContainer" parent="HBoxContainer/PlayersPane"]
+[node name="LineEditHBoxContainer" type="HBoxContainer" parent="HBoxContainer/PlayersPane" unique_id=1883698513]
+layout_mode = 2
+size_flags_stretch_ratio = 0.0
+alignment = 1
+
+[node name="PlayerNameField" type="LineEdit" parent="HBoxContainer/PlayersPane/LineEditHBoxContainer" unique_id=1303162112]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.45
+placeholder_text = "Player Name"
+
+[node name="AffiliationField" type="LineEdit" parent="HBoxContainer/PlayersPane/LineEditHBoxContainer" unique_id=252898429]
+layout_mode = 2
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 1.13
+placeholder_text = "Affiliation"
+
+[node name="HBoxContainer" type="VBoxContainer" parent="HBoxContainer/PlayersPane" unique_id=1188747032]
 layout_mode = 2
 
-[node name="AddPlayerContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane/HBoxContainer"]
+[node name="AddPlayerContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane/HBoxContainer" unique_id=183240210]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 5
 
-[node name="AddPlayerButton" type="Button" parent="HBoxContainer/PlayersPane/HBoxContainer/AddPlayerContainer"]
+[node name="AddPlayerButton" type="Button" parent="HBoxContainer/PlayersPane/HBoxContainer/AddPlayerContainer" unique_id=1956977323]
 layout_mode = 2
 text = "Add One Player"
 
-[node name="BulkAddContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane/HBoxContainer"]
+[node name="BulkAddContainer" type="MarginContainer" parent="HBoxContainer/PlayersPane/HBoxContainer" unique_id=1854607798]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
 
-[node name="BulkAddButton" type="Button" parent="HBoxContainer/PlayersPane/HBoxContainer/BulkAddContainer"]
+[node name="BulkAddButton" type="Button" parent="HBoxContainer/PlayersPane/HBoxContainer/BulkAddContainer" unique_id=802462665]
 layout_mode = 2
 text = "Import Player Data From CSV"

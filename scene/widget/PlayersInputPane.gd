@@ -4,6 +4,9 @@ class_name PlayersInputPane
 @onready var player_table : PlayerPreviewTable = $MarginContainer/PlayerTable
 @onready var text_input : TextEdit = $MarginContainer/TextEdit
 
+@onready var player_name_field: LineEdit = $LineEditHBoxContainer/PlayerNameField 
+@onready var affiliation_field: LineEdit = $LineEditHBoxContainer/AffiliationField 
+
 @onready var add_player_button : Button = $HBoxContainer/AddPlayerContainer/AddPlayerButton
 @onready var import_player_button : Button = $HBoxContainer/BulkAddContainer/BulkAddButton
 
@@ -21,8 +24,17 @@ func _add_player_button_pressed():
         row.set_cell_mode(2, TreeItem.CELL_MODE_STRING)
 
         row.set_text(0, str(player_table.get_root().get_child_count()))
-        row.set_text(1, "Freed Jyanshi %d" % [player_table.get_root().get_child_count()])
-        row.set_text(2, "Riichi Nomi NYC")
+        # row.set_text(1, "Freed Jyanshi %d" % [player_table.get_root().get_child_count()])
+        var name := player_name_field.text
+        if name == "":
+            name = "Freed Jangshi"
+        row.set_text(1, player_table.check_duplicate_name(name))
+        # row.set_text(1, "Freed Jyanshi %d" % [player_table.get_root().get_child_count()])
+
+        if affiliation_field.text != "":
+            row.set_text(2, affiliation_field.text)
+        else:
+            row.set_text(2, "Unaffiliated")
 
         row.set_editable(0, false)
         row.set_editable(1, true)
