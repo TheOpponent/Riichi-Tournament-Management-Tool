@@ -1,39 +1,39 @@
-[gd_scene load_steps=29 format=3 uid="uid://bh0j8j56pkgix"]
+[gd_scene format=3 uid="uid://bh0j8j56pkgix"]
 
-[ext_resource type="Script" path="res://scene/tournament/TournamentStandings.gd" id="1_idape"]
-[ext_resource type="Script" path="res://scene/tournament/CountdownTimer.gd" id="1_p3fnt"]
-[ext_resource type="Script" path="res://scene/tournament/WindowTitle.gd" id="1_pu15g"]
-[ext_resource type="Script" path="res://scene/tournament/MainContainer.gd" id="1_xpmcv"]
-[ext_resource type="Script" path="res://scene/tournament/PlayerList.gd" id="2_vfbjs"]
-[ext_resource type="Script" path="res://scene/tournament/PlayerHanchanHistory.gd" id="3_pfn50"]
-[ext_resource type="Script" path="res://scene/tournament/PlayerManagement.gd" id="5_bpmp2"]
-[ext_resource type="Script" path="res://scene/widget/NumericLineEdit.gd" id="5_g344r"]
-[ext_resource type="Script" path="res://scene/tournament/RoundManagement.gd" id="6_6eqxs"]
-[ext_resource type="Script" path="res://scene/tournament/InactivePlayersList.gd" id="6_lsk6h"]
-[ext_resource type="Script" path="res://scene/tournament/RoundManagementSettings.gd" id="7_8612w"]
-[ext_resource type="Script" path="res://scene/tournament/HanchanHistory.gd" id="7_a7c8l"]
-[ext_resource type="Script" path="res://scene/tournament/PairingsList.gd" id="7_c2q4b"]
-[ext_resource type="Script" path="res://scene/tournament/ColumnInput.gd" id="8_5cvc0"]
-[ext_resource type="Script" path="res://scene/tournament/ScoreInput.gd" id="8_7kqq6"]
-[ext_resource type="Script" path="res://scene/tournament/HanchanCreation.gd" id="8_mbkqq"]
-[ext_resource type="Script" path="res://scene/tournament/ColumnIdInput.gd" id="8_sx20j"]
-[ext_resource type="Script" path="res://scene/tournament/ColumnLabel.gd" id="9_muekd"]
-[ext_resource type="Script" path="res://scene/tournament/ColumnPicker.gd" id="10_rhuol"]
-[ext_resource type="Script" path="res://scene/tournament/TournamentManagement.gd" id="20_kwbgv"]
-[ext_resource type="Script" path="res://scene/tournament/CutManagement.gd" id="21_d33wi"]
-[ext_resource type="Script" path="res://scene/tournament/CutCreation.gd" id="22_owihm"]
-[ext_resource type="Script" path="res://scene/tournament/CsvExport.gd" id="23_esrj1"]
-[ext_resource type="Script" path="res://scene/tournament/GoogleSheetsHandler.gd" id="23_xebaf"]
+[ext_resource type="Script" uid="uid://bjc4ptfk0k86t" path="res://scene/tournament/TournamentStandings.gd" id="1_idape"]
+[ext_resource type="Script" uid="uid://nsmxsf4oqr41" path="res://scene/tournament/CountdownTimer.gd" id="1_p3fnt"]
+[ext_resource type="Script" uid="uid://k7x8lev78wj5" path="res://scene/tournament/WindowTitle.gd" id="1_pu15g"]
+[ext_resource type="Script" uid="uid://bj2lb6q4vt6ts" path="res://scene/tournament/MainContainer.gd" id="1_xpmcv"]
+[ext_resource type="Script" uid="uid://urm3n1ohqy1v" path="res://scene/tournament/PlayerList.gd" id="2_vfbjs"]
+[ext_resource type="Script" uid="uid://c6mkl54xiqckx" path="res://scene/tournament/PlayerHanchanHistory.gd" id="3_pfn50"]
+[ext_resource type="Script" uid="uid://cusu77yplcxat" path="res://scene/tournament/PlayerManagement.gd" id="5_bpmp2"]
+[ext_resource type="Script" uid="uid://dnlw1d8c5bwls" path="res://scene/widget/NumericLineEdit.gd" id="5_g344r"]
+[ext_resource type="Script" uid="uid://bw45f1wqno262" path="res://scene/tournament/RoundManagement.gd" id="6_6eqxs"]
+[ext_resource type="Script" uid="uid://du5j3v40ypqcs" path="res://scene/tournament/InactivePlayersList.gd" id="6_lsk6h"]
+[ext_resource type="Script" uid="uid://cntwp6cp2uiv4" path="res://scene/tournament/RoundManagementSettings.gd" id="7_8612w"]
+[ext_resource type="Script" uid="uid://dp5jayxex71k3" path="res://scene/tournament/HanchanHistory.gd" id="7_a7c8l"]
+[ext_resource type="Script" uid="uid://d2aq4lp38gf41" path="res://scene/tournament/PairingsList.gd" id="7_c2q4b"]
+[ext_resource type="Script" uid="uid://c44ouqgyvhxa6" path="res://scene/tournament/ColumnInput.gd" id="8_5cvc0"]
+[ext_resource type="Script" uid="uid://bbnw6qbrp3ea0" path="res://scene/tournament/ScoreInput.gd" id="8_7kqq6"]
+[ext_resource type="Script" uid="uid://bidtx6qsa4emk" path="res://scene/tournament/HanchanCreation.gd" id="8_mbkqq"]
+[ext_resource type="Script" uid="uid://c4n45wq3paknc" path="res://scene/tournament/ColumnIdInput.gd" id="8_sx20j"]
+[ext_resource type="Script" uid="uid://cok5onwcvs37j" path="res://scene/tournament/ColumnLabel.gd" id="9_muekd"]
+[ext_resource type="Script" uid="uid://flkewa73yehu" path="res://scene/tournament/ColumnPicker.gd" id="10_rhuol"]
+[ext_resource type="Script" uid="uid://gd15sot530ep" path="res://scene/tournament/TournamentManagement.gd" id="20_kwbgv"]
+[ext_resource type="Script" uid="uid://ridrx1q8pcci" path="res://scene/tournament/CutManagement.gd" id="21_d33wi"]
+[ext_resource type="Script" uid="uid://d0uahknw7xlqw" path="res://scene/tournament/CutCreation.gd" id="22_owihm"]
+[ext_resource type="Script" uid="uid://bvhtbdpcb4dow" path="res://scene/tournament/CsvExport.gd" id="23_esrj1"]
+[ext_resource type="Script" uid="uid://dwug1x4ijfra4" path="res://scene/tournament/GoogleSheetsHandler.gd" id="23_xebaf"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_0ewmx"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jujnl"]
-
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_oj22s"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_jujnl"]
 
 [sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_o2sir"]
 
-[node name="TournamentManagement" type="Control"]
+[node name="TournamentManagement" type="Control" unique_id=1237549686]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -41,7 +41,7 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1104090678]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -50,7 +50,7 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0, 0, 0, 1)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=713077944]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -58,10 +58,10 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Header" type="HBoxContainer" parent="VBoxContainer"]
+[node name="Header" type="HBoxContainer" parent="VBoxContainer" unique_id=457312871]
 layout_mode = 2
 
-[node name="Title" type="MarginContainer" parent="VBoxContainer/Header"]
+[node name="Title" type="MarginContainer" parent="VBoxContainer/Header" unique_id=1372669956]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
@@ -69,22 +69,22 @@ theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="Label" type="Label" parent="VBoxContainer/Header/Title"]
+[node name="Label" type="Label" parent="VBoxContainer/Header/Title" unique_id=790573227]
 layout_mode = 2
 text = "My Awesome Mahjong Tournament"
 script = ExtResource("1_pu15g")
 
-[node name="TimerLabel" type="MarginContainer" parent="VBoxContainer/Header"]
+[node name="TimerLabel" type="MarginContainer" parent="VBoxContainer/Header" unique_id=1149866561]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_bottom = 10
 
-[node name="Label" type="Label" parent="VBoxContainer/Header/TimerLabel"]
+[node name="Label" type="Label" parent="VBoxContainer/Header/TimerLabel" unique_id=1492522581]
 layout_mode = 2
 text = "Time Until Round End:"
 
-[node name="Timer" type="MarginContainer" parent="VBoxContainer/Header"]
+[node name="Timer" type="MarginContainer" parent="VBoxContainer/Header" unique_id=1610940043]
 custom_minimum_size = Vector2(74, 0)
 layout_mode = 2
 theme_override_constants/margin_top = 10
@@ -92,45 +92,47 @@ theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 10
 script = ExtResource("1_p3fnt")
 
-[node name="Time" type="Button" parent="VBoxContainer/Header/Timer"]
+[node name="Time" type="Button" parent="VBoxContainer/Header/Timer" unique_id=267832161]
 layout_mode = 2
+theme_override_font_sizes/font_size = 24
 theme_override_styles/normal = SubResource("StyleBoxEmpty_0ewmx")
-theme_override_styles/hover = SubResource("StyleBoxEmpty_jujnl")
 theme_override_styles/pressed = SubResource("StyleBoxEmpty_oj22s")
+theme_override_styles/hover = SubResource("StyleBoxEmpty_jujnl")
 theme_override_styles/focus = SubResource("StyleBoxEmpty_o2sir")
 text = "--:--:--"
 flat = true
 
-[node name="Timer" type="Timer" parent="VBoxContainer/Header/Timer"]
+[node name="Timer" type="Timer" parent="VBoxContainer/Header/Timer" unique_id=2108980509]
 
-[node name="MainContainer" type="MarginContainer" parent="VBoxContainer"]
+[node name="MainContainer" type="MarginContainer" parent="VBoxContainer" unique_id=766139981]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="TabContainer" type="TabContainer" parent="VBoxContainer/MainContainer"]
+[node name="TabContainer" type="TabContainer" parent="VBoxContainer/MainContainer" unique_id=812640524]
 layout_mode = 2
-current_tab = 1
+current_tab = 3
 script = ExtResource("1_xpmcv")
 
-[node name="Standings" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer"]
+[node name="Standings" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer" unique_id=2103671671]
 visible = false
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
+metadata/_tab_index = 0
 
-[node name="Standings" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/Standings"]
+[node name="Standings" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/Standings" unique_id=1919910180]
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("1_idape")
 
-[node name="PlayerListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings"]
+[node name="PlayerListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings" unique_id=1645607376]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_right = 10
 
-[node name="PlayerList" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings/PlayerListContainer"]
+[node name="PlayerList" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings/PlayerListContainer" unique_id=525221321]
 layout_mode = 2
 size_flags_horizontal = 3
 columns = 4
@@ -141,12 +143,12 @@ select_mode = 1
 scroll_horizontal_enabled = false
 script = ExtResource("2_vfbjs")
 
-[node name="PlayerHanchanHistoryContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings"]
+[node name="PlayerHanchanHistoryContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings" unique_id=1329772986]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
 
-[node name="PlayerHanchanHistory" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings/PlayerHanchanHistoryContainer"]
+[node name="PlayerHanchanHistory" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/Standings/Standings/PlayerHanchanHistoryContainer" unique_id=131380719]
 layout_mode = 2
 size_flags_horizontal = 3
 column_titles_visible = true
@@ -156,63 +158,65 @@ select_mode = 1
 scroll_horizontal_enabled = false
 script = ExtResource("3_pfn50")
 
-[node name="HanchanHistoryContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer"]
+[node name="HanchanHistoryContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer" unique_id=1451010011]
+visible = false
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
+metadata/_tab_index = 1
 
-[node name="HanchanHistory" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer"]
+[node name="HanchanHistory" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer" unique_id=1369883004]
 layout_mode = 2
 script = ExtResource("7_a7c8l")
 
-[node name="HistoryPane" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory"]
+[node name="HistoryPane" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory" unique_id=1045806709]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane" unique_id=2131278124]
 layout_mode = 2
 text = "Hanchan Record"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="RoundSelector" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane"]
+[node name="RoundSelector" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane" unique_id=1682389122]
 layout_mode = 2
 
-[node name="RoundSelectorLayout" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector"]
+[node name="RoundSelectorLayout" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector" unique_id=156700429]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout" unique_id=419211437]
 layout_mode = 2
 size_flags_vertical = 1
 text = "Round:"
 vertical_alignment = 1
 
-[node name="Selector" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout"]
+[node name="Selector" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout" unique_id=1549838070]
 layout_mode = 2
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "-"
 popup/item_0/id = 0
 popup/item_1/text = "None"
 popup/item_1/id = 1
 
-[node name="LeftPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout"]
+[node name="LeftPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout" unique_id=307445450]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="RightPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout"]
+[node name="RightPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/RoundSelector/RoundSelectorLayout" unique_id=1669045497]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="HanchanHistory" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane"]
+[node name="HanchanHistory" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane" unique_id=1096681860]
 layout_mode = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
 theme_override_constants/margin_right = 10
 
-[node name="HanchanHistory" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/HanchanHistory"]
+[node name="HanchanHistory" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/HanchanHistory" unique_id=979724216]
 layout_mode = 2
 size_flags_horizontal = 3
 column_titles_visible = true
@@ -222,7 +226,7 @@ select_mode = 1
 scroll_horizontal_enabled = false
 script = ExtResource("3_pfn50")
 
-[node name="Players" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/HanchanHistory"]
+[node name="Players" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane/HanchanHistory" unique_id=71200507]
 visible = false
 layout_mode = 2
 columns = 4
@@ -231,131 +235,131 @@ hide_folding = true
 hide_root = true
 script = ExtResource("2_vfbjs")
 
-[node name="AddHanchanButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane"]
+[node name="AddHanchanButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/HistoryPane" unique_id=1460317991]
 layout_mode = 2
 text = "Manual Hanchan Creation"
 
-[node name="ControlsPane" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory"]
+[node name="ControlsPane" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory" unique_id=286337773]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="TopPadding" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane"]
+[node name="TopPadding" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane" unique_id=1634375810]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="SettingsContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane"]
+[node name="SettingsContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane" unique_id=1416418143]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 
-[node name="HanchanCreation" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer"]
+[node name="HanchanCreation" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer" unique_id=1588256260]
 visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("8_mbkqq")
 
-[node name="RoundName" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation"]
+[node name="RoundName" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation" unique_id=1607608719]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 10
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/RoundName"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/RoundName" unique_id=625398059]
 layout_mode = 2
 text = "Round 999, Table 999"
 
-[node name="Scorer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation"]
+[node name="Scorer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation" unique_id=1741879580]
 layout_mode = 2
 
-[node name="PlayerIdMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer"]
+[node name="PlayerIdMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer" unique_id=1817916395]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="PlayerId" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin"]
+[node name="PlayerId" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin" unique_id=1720857039]
 layout_mode = 2
 script = ExtResource("8_sx20j")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId" unique_id=361920754]
 layout_mode = 2
 size_flags_vertical = 6
 text = "Player ID
 "
 
-[node name="One" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId"]
+[node name="One" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId" unique_id=159677186]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="Two" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Two" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId" unique_id=1303561342]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="Three" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Three" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId" unique_id=1320218535]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="Four" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Four" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerIdMargin/PlayerId" unique_id=1745597630]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="PlayerNameMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer"]
+[node name="PlayerNameMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer" unique_id=1607219587]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="PlayerName" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin"]
+[node name="PlayerName" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin" unique_id=1839590379]
 custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 script = ExtResource("9_muekd")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName" unique_id=770980797]
 layout_mode = 2
 size_flags_vertical = 6
 text = "Name"
 
-[node name="One" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName"]
+[node name="One" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName" unique_id=1230380038]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi 0"
 
-[node name="Two" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Two" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName" unique_id=1279478824]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi -1"
 
-[node name="Three" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Three" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName" unique_id=151664162]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi -2"
 
-[node name="Four" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Four" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/PlayerNameMargin/PlayerName" unique_id=2122263017]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi -3"
 
-[node name="SeatWindMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer"]
+[node name="SeatWindMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer" unique_id=1489287334]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="SeatWind" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin"]
+[node name="SeatWind" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin" unique_id=2101567773]
 layout_mode = 2
 script = ExtResource("10_rhuol")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind" unique_id=1071117570]
 layout_mode = 2
 size_flags_vertical = 6
 text = "Seat Wind"
 
-[node name="One" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind"]
+[node name="One" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind" unique_id=964941844]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -365,11 +369,11 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="Two" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind"]
+[node name="Two" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind" unique_id=1296248405]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -379,11 +383,11 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="Three" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind"]
+[node name="Three" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind" unique_id=2040030998]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -393,11 +397,11 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="Four" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind"]
+[node name="Four" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/Scorer/SeatWindMargin/SeatWind" unique_id=1265056825]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -407,131 +411,131 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="ButtonsContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation"]
+[node name="ButtonsContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation" unique_id=1854715767]
 layout_mode = 2
 theme_override_constants/margin_top = 20
 
-[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/ButtonsContainer"]
+[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/ButtonsContainer" unique_id=935603209]
 layout_mode = 2
 
-[node name="Confirm" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/ButtonsContainer/Buttons"]
+[node name="Confirm" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/ButtonsContainer/Buttons" unique_id=950843689]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Create Hanchan"
 
-[node name="Cancel" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/ButtonsContainer/Buttons"]
+[node name="Cancel" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/HanchanCreation/ButtonsContainer/Buttons" unique_id=797426102]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Cancel"
 
-[node name="Settings" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer"]
+[node name="Settings" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer" unique_id=676863579]
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("8_7kqq6")
 
-[node name="RoundName" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings"]
+[node name="RoundName" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings" unique_id=1464651530]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 theme_override_constants/margin_bottom = 10
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/RoundName"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/RoundName" unique_id=1395637794]
 layout_mode = 2
 text = "Round 999, Table 999"
 
-[node name="Scorer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings"]
+[node name="Scorer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings" unique_id=1703734312]
 layout_mode = 2
 
-[node name="PlayerIdMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer"]
+[node name="PlayerIdMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer" unique_id=692063454]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="PlayerId" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin"]
+[node name="PlayerId" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin" unique_id=1651044720]
 layout_mode = 2
 script = ExtResource("8_sx20j")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId" unique_id=1656468159]
 layout_mode = 2
 size_flags_vertical = 6
 text = "Player ID
 "
 
-[node name="One" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId"]
+[node name="One" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId" unique_id=1259655941]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="Two" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Two" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId" unique_id=153867092]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="Three" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Three" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId" unique_id=911210715]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="Four" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId"]
+[node name="Four" type="SpinBox" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerIdMargin/PlayerId" unique_id=1781979670]
 layout_mode = 2
 size_flags_vertical = 3
 update_on_text_changed = true
 
-[node name="PlayerNameMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer"]
+[node name="PlayerNameMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer" unique_id=1890614203]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="PlayerName" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin"]
+[node name="PlayerName" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin" unique_id=340895222]
 custom_minimum_size = Vector2(150, 0)
 layout_mode = 2
 script = ExtResource("9_muekd")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName" unique_id=218323922]
 layout_mode = 2
 size_flags_vertical = 6
 text = "Name"
 
-[node name="One" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName"]
+[node name="One" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName" unique_id=1931025122]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi 0"
 
-[node name="Two" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Two" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName" unique_id=187306921]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi -1"
 
-[node name="Three" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Three" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName" unique_id=361294079]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi -2"
 
-[node name="Four" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName"]
+[node name="Four" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PlayerNameMargin/PlayerName" unique_id=1247617589]
 layout_mode = 2
 size_flags_vertical = 3
 text = "Freed Jyanshi -3"
 
-[node name="SeatWindMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer"]
+[node name="SeatWindMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer" unique_id=1342407466]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="SeatWind" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin"]
+[node name="SeatWind" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin" unique_id=1723616920]
 layout_mode = 2
 script = ExtResource("10_rhuol")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind" unique_id=418979885]
 layout_mode = 2
 size_flags_vertical = 6
 text = "Seat Wind"
 
-[node name="One" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind"]
+[node name="One" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind" unique_id=1070417433]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -541,11 +545,11 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="Two" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind"]
+[node name="Two" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind" unique_id=895782470]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -555,11 +559,11 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="Three" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind"]
+[node name="Three" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind" unique_id=786730605]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -569,11 +573,11 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="Four" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind"]
+[node name="Four" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/SeatWindMargin/SeatWind" unique_id=385339807]
 layout_mode = 2
 size_flags_vertical = 3
-item_count = 4
 selected = 0
+item_count = 4
 popup/item_0/text = "East"
 popup/item_0/id = 0
 popup/item_1/text = "South"
@@ -583,272 +587,273 @@ popup/item_2/id = 2
 popup/item_3/text = "North"
 popup/item_3/id = 3
 
-[node name="PointsMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer"]
+[node name="PointsMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer" unique_id=642879671]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="Points" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin"]
+[node name="Points" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin" unique_id=1263936589]
 layout_mode = 2
 script = ExtResource("8_5cvc0")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points" unique_id=663085357]
 layout_mode = 2
 text = "Points"
 
-[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points"]
+[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points" unique_id=564004156]
 layout_mode = 2
 text = "25000"
 placeholder_text = "25000"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points"]
+[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points" unique_id=1460219755]
 layout_mode = 2
 text = "25000"
 placeholder_text = "25000"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points"]
+[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points" unique_id=1080333594]
 layout_mode = 2
 text = "25000"
 placeholder_text = "25000"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points"]
+[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PointsMargin/Points" unique_id=272908085]
 layout_mode = 2
 text = "25000"
 placeholder_text = "25000"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="ShuugiMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer"]
+[node name="ShuugiMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer" unique_id=1042982452]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="Shuugi" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin"]
+[node name="Shuugi" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin" unique_id=586474674]
 layout_mode = 2
 script = ExtResource("8_5cvc0")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi" unique_id=1684620954]
 layout_mode = 2
 text = "Shuugi"
 
-[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi"]
+[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi" unique_id=1993941175]
 layout_mode = 2
 text = "10"
 placeholder_text = "10"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi"]
+[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi" unique_id=751181404]
 layout_mode = 2
 text = "10"
 placeholder_text = "10"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi"]
+[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi" unique_id=1300305395]
 layout_mode = 2
 text = "10"
 placeholder_text = "10"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi"]
+[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ShuugiMargin/Shuugi" unique_id=59591576]
 layout_mode = 2
 text = "10"
 placeholder_text = "10"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="PenaltyMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer"]
+[node name="PenaltyMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer" unique_id=1254743398]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="Penalty" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin"]
+[node name="Penalty" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin" unique_id=29773891]
 layout_mode = 2
 script = ExtResource("8_5cvc0")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty" unique_id=1605519710]
 layout_mode = 2
 text = "Penalty"
 
-[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty"]
+[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty" unique_id=1346058237]
 layout_mode = 2
 text = "0"
 placeholder_text = "0"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty"]
+[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty" unique_id=1085215587]
 layout_mode = 2
 text = "0"
 placeholder_text = "0"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty"]
+[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty" unique_id=262959634]
 layout_mode = 2
 text = "0"
 placeholder_text = "0"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty"]
+[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/PenaltyMargin/Penalty" unique_id=360305003]
 layout_mode = 2
 text = "0"
 placeholder_text = "0"
 select_all_on_focus = true
 script = ExtResource("5_g344r")
 
-[node name="ScoreMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer"]
+[node name="ScoreMargin" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer" unique_id=718893945]
 layout_mode = 2
 theme_override_constants/margin_left = 5
 theme_override_constants/margin_right = 5
 
-[node name="Score" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin"]
+[node name="Score" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin" unique_id=126569756]
 layout_mode = 2
 script = ExtResource("8_5cvc0")
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score" unique_id=1474665736]
 layout_mode = 2
 text = "Score"
 
-[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score"]
+[node name="One" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score" unique_id=446482653]
 layout_mode = 2
 text = "0.0"
 placeholder_text = "0.0"
 editable = false
 script = ExtResource("5_g344r")
 
-[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score"]
+[node name="Two" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score" unique_id=1718396976]
 layout_mode = 2
 text = "0.0"
 placeholder_text = "0.0"
 editable = false
 script = ExtResource("5_g344r")
 
-[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score"]
+[node name="Three" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score" unique_id=2044218142]
 layout_mode = 2
 text = "0.0"
 placeholder_text = "0.0"
 editable = false
 script = ExtResource("5_g344r")
 
-[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score"]
+[node name="Four" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/Scorer/ScoreMargin/Score" unique_id=2021542816]
 layout_mode = 2
 text = "0.0"
 placeholder_text = "0.0"
 editable = false
 script = ExtResource("5_g344r")
 
-[node name="MissingContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings"]
+[node name="MissingContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings" unique_id=1245247491]
 layout_mode = 2
 theme_override_constants/margin_top = 20
 
-[node name="Root" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer"]
+[node name="Root" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer" unique_id=800425298]
 layout_mode = 2
 
-[node name="Labels" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root"]
+[node name="Labels" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root" unique_id=1278482997]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Points" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels"]
+[node name="Points" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels" unique_id=1773309115]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels/Points"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels/Points" unique_id=1404657945]
 layout_mode = 2
 text = "Missing Points"
 vertical_alignment = 1
 
-[node name="Shuugi" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels"]
+[node name="Shuugi" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels" unique_id=2043653134]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels/Shuugi"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Labels/Shuugi" unique_id=486392460]
 layout_mode = 2
 text = "Missing Shuugi"
 vertical_alignment = 1
 
-[node name="Values" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root"]
+[node name="Values" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root" unique_id=2770176]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Points" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values"]
+[node name="Points" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values" unique_id=1475501697]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values/Points"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values/Points" unique_id=397705906]
 layout_mode = 2
 text = "0"
 vertical_alignment = 1
 
-[node name="Shuugi" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values"]
+[node name="Shuugi" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values" unique_id=1404106311]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values/Shuugi"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/MissingContainer/Root/Values/Shuugi" unique_id=390010004]
 layout_mode = 2
 text = "0	"
 vertical_alignment = 1
 
-[node name="ButtonsContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings"]
+[node name="ButtonsContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings" unique_id=1513919554]
 layout_mode = 2
 theme_override_constants/margin_top = 20
 
-[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer"]
+[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer" unique_id=1928263870]
 layout_mode = 2
 
-[node name="ModifyTable" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer/Buttons"]
+[node name="ModifyTable" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer/Buttons" unique_id=1611841070]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Modify Table"
 
-[node name="Confirm" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer/Buttons"]
+[node name="Confirm" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer/Buttons" unique_id=2024059200]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Submit Scores"
 
-[node name="Cancel" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer/Buttons"]
+[node name="Cancel" type="Button" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane/SettingsContainer/Settings/ButtonsContainer/Buttons" unique_id=1839396881]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Cancel"
 
-[node name="BottomPadding" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane"]
+[node name="BottomPadding" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/HanchanHistoryContainer/HanchanHistory/ControlsPane" unique_id=1944935651]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="RoundManagementContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer"]
+[node name="RoundManagementContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer" unique_id=872033879]
 visible = false
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
+metadata/_tab_index = 2
 
-[node name="RoundManagement" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer"]
+[node name="RoundManagement" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer" unique_id=833433547]
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("6_6eqxs")
 
-[node name="PairingsContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement"]
+[node name="PairingsContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement" unique_id=232874173]
 visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/PairingsContainer"]
+[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/PairingsContainer" unique_id=945958]
 layout_mode = 2
 text = "Round Pairings"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="PairingsListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/PairingsContainer"]
+[node name="PairingsListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/PairingsContainer" unique_id=900889071]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="PairingsList" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/PairingsContainer/PairingsListContainer"]
+[node name="PairingsList" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/PairingsContainer/PairingsListContainer" unique_id=1306302702]
 layout_mode = 2
 columns = 3
 column_titles_visible = true
@@ -857,21 +862,21 @@ hide_root = true
 select_mode = 1
 script = ExtResource("7_c2q4b")
 
-[node name="ActivePlayersContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement"]
+[node name="ActivePlayersContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement" unique_id=93145988]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ActivePlayersContainer"]
+[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ActivePlayersContainer" unique_id=1337006772]
 layout_mode = 2
 text = "Active Players"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ActivePlayersListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ActivePlayersContainer"]
+[node name="ActivePlayersListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ActivePlayersContainer" unique_id=1117278701]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="ActivePlayers" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ActivePlayersContainer/ActivePlayersListContainer"]
+[node name="ActivePlayers" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ActivePlayersContainer/ActivePlayersListContainer" unique_id=826882503]
 layout_mode = 2
 columns = 4
 column_titles_visible = true
@@ -880,235 +885,235 @@ hide_root = true
 select_mode = 1
 script = ExtResource("2_vfbjs")
 
-[node name="ControlsContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement"]
+[node name="ControlsContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement" unique_id=45340460]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer"]
+[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer" unique_id=271275394]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Settings" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer"]
+[node name="Settings" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer" unique_id=1958023856]
 layout_mode = 2
 script = ExtResource("7_8612w")
 
-[node name="ActiveTables" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="ActiveTables" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=2117964773]
 layout_mode = 2
 
-[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables"]
+[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables" unique_id=716663119]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables/Left"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables/Left" unique_id=1497041667]
 layout_mode = 2
 text = "Active Tables"
 
-[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables"]
+[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables" unique_id=1345409290]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 8
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables/Right"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/ActiveTables/Right" unique_id=691948270]
 layout_mode = 2
 text = "0"
 
-[node name="AvoidDuplicates" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="AvoidDuplicates" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=1168618108]
 layout_mode = 2
 
-[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates"]
+[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates" unique_id=876176146]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates/Left"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates/Left" unique_id=957207732]
 layout_mode = 2
 text = "Minimize Duplicate Pairings"
 
-[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates"]
+[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates" unique_id=1968303820]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 1
 theme_override_constants/margin_bottom = 5
 
-[node name="CheckBox" type="CheckBox" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates/Right"]
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AvoidDuplicates/Right" unique_id=1615797584]
 layout_mode = 2
 button_pressed = true
 
-[node name="AssignWinds" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="AssignWinds" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=1254169920]
 layout_mode = 2
 
-[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds"]
+[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds" unique_id=1229302820]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds/Left"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds/Left" unique_id=1321025458]
 layout_mode = 2
 text = "Assign Seat Winds"
 
-[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds"]
+[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds" unique_id=294345112]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 1
 theme_override_constants/margin_bottom = 5
 
-[node name="CheckBox" type="CheckBox" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds/Right"]
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/AssignWinds/Right" unique_id=1659894196]
 layout_mode = 2
 button_pressed = true
 
-[node name="LeftoverPlayers" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="LeftoverPlayers" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=1272494260]
 layout_mode = 2
 
-[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers"]
+[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers" unique_id=2101179768]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers/Left"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers/Left" unique_id=77115258]
 layout_mode = 2
 text = "Assign Substitutes for Uneven Pairings"
 
-[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers"]
+[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers" unique_id=544480461]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 1
 theme_override_constants/margin_bottom = 5
 
-[node name="CheckBox" type="CheckBox" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers/Right"]
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/LeftoverPlayers/Right" unique_id=1542180054]
 layout_mode = 2
 button_pressed = true
 
-[node name="SwissBlocks" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="SwissBlocks" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=736673569]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks"]
+[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks" unique_id=777251609]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks/Left"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks/Left" unique_id=934291911]
 layout_mode = 2
 text = "Pairing Blocks"
 
-[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks"]
+[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks" unique_id=14852297]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_bottom = 5
 
-[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks/Right"]
+[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/SwissBlocks/Right" unique_id=1958292293]
 layout_mode = 2
 text = "1"
 placeholder_text = "1"
 script = ExtResource("5_g344r")
 
-[node name="CreatePairingsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="CreatePairingsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=776529598]
 layout_mode = 2
 text = "Create Pairings"
 
-[node name="RoundTime" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="RoundTime" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=174833163]
 layout_mode = 2
 
-[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime"]
+[node name="Left" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime" unique_id=873814802]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime/Left"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime/Left" unique_id=1853036800]
 layout_mode = 2
 text = "Round Time (Minutes)"
 
-[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime"]
+[node name="Right" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime" unique_id=1472906257]
 layout_mode = 2
 size_flags_horizontal = 3
 theme_override_constants/margin_left = 4
 theme_override_constants/margin_bottom = 5
 
-[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime/Right"]
+[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings/RoundTime/Right" unique_id=863765039]
 layout_mode = 2
 text = "0"
 placeholder_text = "0"
 script = ExtResource("5_g344r")
 
-[node name="StartRoundButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings"]
+[node name="StartRoundButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/Settings" unique_id=557715194]
 layout_mode = 2
 text = "Start Round"
 
-[node name="ManageDuplicates" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer"]
+[node name="ManageDuplicates" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer" unique_id=219477233]
 visible = false
 layout_mode = 2
 
-[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ManageDuplicates"]
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ManageDuplicates" unique_id=1992472614]
 layout_mode = 2
 theme_override_constants/margin_left = 10
 theme_override_constants/margin_right = 10
 theme_override_constants/margin_bottom = 5
 
-[node name="Label" type="RichTextLabel" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ManageDuplicates/MarginContainer"]
+[node name="Label" type="RichTextLabel" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ManageDuplicates/MarginContainer" unique_id=1621091081]
 custom_minimum_size = Vector2(0, 23)
 layout_mode = 2
 bbcode_enabled = true
 text = "There are [color=red]0[/color] tables with duplicate pairings."
 
-[node name="Button" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ManageDuplicates"]
+[node name="Button" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ManageDuplicates" unique_id=1604908659]
 layout_mode = 2
 text = "Reshuffle"
 
-[node name="ConfirmRound" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer"]
+[node name="ConfirmRound" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer" unique_id=73001235]
 visible = false
 layout_mode = 2
 
-[node name="ConfirmPairingsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ConfirmRound"]
+[node name="ConfirmPairingsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ConfirmRound" unique_id=8717331]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Confirm Pairings"
 
-[node name="CancelRoundButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ConfirmRound"]
+[node name="CancelRoundButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer/ConfirmRound" unique_id=1274925330]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Cancel"
 
-[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer"]
+[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/RoundManagementContainer/RoundManagement/ControlsContainer" unique_id=2006814391]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="PlayerManagementContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer"]
-visible = false
+[node name="PlayerManagementContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer" unique_id=373872582]
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
+metadata/_tab_index = 3
 
-[node name="PlayerManagement" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer"]
+[node name="PlayerManagement" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer" unique_id=748436202]
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("5_bpmp2")
 
-[node name="ActivePlayersContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement"]
+[node name="ActivePlayersContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement" unique_id=12126190]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ActivePlayersContainer"]
+[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ActivePlayersContainer" unique_id=1552385639]
 layout_mode = 2
 text = "Active Players"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="ActivePlayersListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ActivePlayersContainer"]
+[node name="ActivePlayersListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ActivePlayersContainer" unique_id=264819710]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/margin_right = 10
 
-[node name="ActivePlayers" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ActivePlayersContainer/ActivePlayersListContainer"]
+[node name="ActivePlayers" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ActivePlayersContainer/ActivePlayersListContainer" unique_id=1705595184]
 layout_mode = 2
 columns = 4
 column_titles_visible = true
@@ -1117,45 +1122,45 @@ hide_root = true
 select_mode = 1
 script = ExtResource("2_vfbjs")
 
-[node name="ButtonsContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement"]
+[node name="ButtonsContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement" unique_id=1392755792]
 layout_mode = 2
 
-[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer"]
+[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer" unique_id=378680026]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="MoveLeftButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer"]
+[node name="MoveLeftButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer" unique_id=1766736219]
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
 text = "←"
 
-[node name="MoveRightButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer"]
+[node name="MoveRightButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer" unique_id=1810137074]
 custom_minimum_size = Vector2(50, 50)
 layout_mode = 2
 theme_override_font_sizes/font_size = 30
 text = "→"
 
-[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer"]
+[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/ButtonsContainer" unique_id=1054062779]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="InactivePlayersContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement"]
+[node name="InactivePlayersContainer" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement" unique_id=831439435]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer"]
+[node name="Title" type="Label" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer" unique_id=1418847967]
 layout_mode = 2
 text = "Inactive Players"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="InactivePlayersListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer"]
+[node name="InactivePlayersListContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer" unique_id=139628137]
 layout_mode = 2
 size_flags_vertical = 3
 theme_override_constants/margin_left = 10
 
-[node name="InactivePlayers" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer/InactivePlayersListContainer"]
+[node name="InactivePlayers" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer/InactivePlayersListContainer" unique_id=1893753750]
 layout_mode = 2
 columns = 4
 column_titles_visible = true
@@ -1164,70 +1169,71 @@ hide_root = true
 select_mode = 1
 script = ExtResource("6_lsk6h")
 
-[node name="AddPlayersButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer"]
+[node name="AddPlayersButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer" unique_id=1805628339]
 visible = false
 layout_mode = 2
 text = "Add Player"
 
-[node name="EditPlayersButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer"]
+[node name="EditPlayersButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/PlayerManagementContainer/PlayerManagement/InactivePlayersContainer" unique_id=1408351910]
 layout_mode = 2
 text = "Edit Players"
 
-[node name="TournamentManagementContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer"]
+[node name="TournamentManagementContainer" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer" unique_id=297837355]
 visible = false
 layout_mode = 2
 theme_override_constants/margin_left = 20
 theme_override_constants/margin_top = 10
 theme_override_constants/margin_right = 20
 theme_override_constants/margin_bottom = 20
+metadata/_tab_index = 4
 
-[node name="TournamentManagement" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer"]
+[node name="TournamentManagement" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer" unique_id=1307793336]
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("20_kwbgv")
 
-[node name="Controls" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement"]
+[node name="Controls" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement" unique_id=747650530]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls"]
+[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls" unique_id=390019064]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="CutButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls"]
+[node name="CutButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls" unique_id=116575317]
 layout_mode = 2
 text = "Cut to Top Players"
 
-[node name="ManageCutsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls"]
+[node name="ManageCutsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls" unique_id=1814065738]
 layout_mode = 2
 text = "Manage Cuts"
 
-[node name="GoogleSheetsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls"]
+[node name="GoogleSheetsButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls" unique_id=1679906980]
 layout_mode = 2
 text = "Import/Export From Google Sheets"
 
-[node name="SaveButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls"]
+[node name="SaveButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls" unique_id=572719061]
 layout_mode = 2
 text = "Save Tournament Data to File"
 
-[node name="ExportCsvButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls"]
+[node name="ExportCsvButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls" unique_id=921879282]
 layout_mode = 2
 text = "Export Tournament Data to CSV"
 
-[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls"]
+[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/Controls" unique_id=1654358487]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="RightPane" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement"]
+[node name="RightPane" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement" unique_id=1044506455]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="CutManagement" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane"]
+[node name="CutManagement" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane" unique_id=951869770]
 visible = false
 layout_mode = 2
 script = ExtResource("21_d33wi")
 
-[node name="CutsTree" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutManagement"]
+[node name="CutsTree" type="Tree" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutManagement" unique_id=1522678260]
 layout_mode = 2
 size_flags_vertical = 3
 columns = 3
@@ -1236,56 +1242,56 @@ hide_folding = true
 hide_root = true
 select_mode = 1
 
-[node name="DeleteButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutManagement"]
+[node name="DeleteButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutManagement" unique_id=439455923]
 layout_mode = 2
 text = "Delete Cut"
 
-[node name="ExitButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutManagement"]
+[node name="ExitButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutManagement" unique_id=2038808667]
 layout_mode = 2
 text = "Cancel"
 
-[node name="CutCreation" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane"]
+[node name="CutCreation" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane" unique_id=1459017057]
 visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("22_owihm")
 
-[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation"]
+[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation" unique_id=1831213765]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Error" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation"]
+[node name="Error" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation" unique_id=1743837814]
 layout_mode = 2
 
-[node name="NotEnoughRoundsLabel" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Error"]
+[node name="NotEnoughRoundsLabel" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Error" unique_id=1044625400]
 layout_mode = 2
 text = "Not enough rounds to create a cut!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="TiesLabel" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Error"]
+[node name="TiesLabel" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Error" unique_id=1854081373]
 layout_mode = 2
 text = "Due to ties, too many players were added to the cut.
 Manually resolve tiebreaks via the Player Management tab before continuing."
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Button" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Error"]
+[node name="Button" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Error" unique_id=2124598833]
 layout_mode = 2
 text = "I Understand"
 
-[node name="Control" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation"]
+[node name="Control" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation" unique_id=1300340415]
 layout_mode = 2
 
-[node name="CutStartRoundContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control"]
+[node name="CutStartRoundContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control" unique_id=730484924]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutStartRoundContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutStartRoundContainer" unique_id=2040117174]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Cut Start Round"
 
-[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutStartRoundContainer"]
+[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutStartRoundContainer" unique_id=1747665352]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1"
@@ -1293,15 +1299,15 @@ placeholder_text = "1"
 editable = false
 script = ExtResource("5_g344r")
 
-[node name="CutEndRoundContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control"]
+[node name="CutEndRoundContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control" unique_id=1319226267]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutEndRoundContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutEndRoundContainer" unique_id=268616530]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Cut End Round"
 
-[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutEndRoundContainer"]
+[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/CutEndRoundContainer" unique_id=999077079]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "1"
@@ -1309,34 +1315,34 @@ placeholder_text = "1"
 editable = false
 script = ExtResource("5_g344r")
 
-[node name="PlayerCountContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control"]
+[node name="PlayerCountContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control" unique_id=607812827]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/PlayerCountContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/PlayerCountContainer" unique_id=965263869]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Player Count"
 
-[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/PlayerCountContainer"]
+[node name="NumericLineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/PlayerCountContainer" unique_id=1605509344]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "8"
 placeholder_text = "8"
 script = ExtResource("5_g344r")
 
-[node name="ScoreModificationContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control"]
+[node name="ScoreModificationContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control" unique_id=189599315]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/ScoreModificationContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/ScoreModificationContainer" unique_id=1842267693]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Score Modification"
 
-[node name="OptionButton" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/ScoreModificationContainer"]
+[node name="OptionButton" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/ScoreModificationContainer" unique_id=385565200]
 layout_mode = 2
 size_flags_horizontal = 3
-item_count = 3
 selected = 0
+item_count = 3
 popup/item_0/text = "None"
 popup/item_0/id = 0
 popup/item_1/text = "Halved"
@@ -1344,112 +1350,111 @@ popup/item_1/id = 1
 popup/item_2/text = "Zeroed"
 popup/item_2/id = 2
 
-[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control"]
+[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control" unique_id=899252447]
 layout_mode = 2
 
-[node name="ConfirmButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/Buttons"]
+[node name="ConfirmButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/Buttons" unique_id=955112755]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Confirm"
 
-[node name="CancelButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/Buttons"]
+[node name="CancelButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation/Control/Buttons" unique_id=1688101260]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Cancel"
 
-[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation"]
+[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CutCreation" unique_id=841226448]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="GoogleSheetsManagement" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane"]
-visible = false
+[node name="GoogleSheetsManagement" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane" unique_id=1234413854]
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("23_xebaf")
 
-[node name="HTTPRequest" type="HTTPRequest" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement"]
+[node name="HTTPRequest" type="HTTPRequest" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement" unique_id=97572421]
 
-[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement"]
+[node name="TopPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement" unique_id=837790493]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="Error" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement"]
+[node name="Error" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement" unique_id=403278479]
 visible = false
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Error"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Error" unique_id=131293672]
 layout_mode = 2
 text = "Due to ties, too many players were added to the cut.
 Manually resolve tiebreaks via the Player Management tab before continuing."
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Button" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Error"]
+[node name="Button" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Error" unique_id=1529842312]
 layout_mode = 2
 text = "I Understand"
 
-[node name="Control" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement"]
+[node name="Control" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement" unique_id=1524236571]
 layout_mode = 2
 
-[node name="ScriptIdContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control"]
+[node name="ScriptIdContainer" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control" unique_id=817487402]
 layout_mode = 2
 
-[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/ScriptIdContainer"]
+[node name="Label" type="Label" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/ScriptIdContainer" unique_id=209591023]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Google Apps Script ID"
 
-[node name="LineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/ScriptIdContainer"]
+[node name="LineEdit" type="LineEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/ScriptIdContainer" unique_id=898410181]
 layout_mode = 2
 size_flags_horizontal = 3
 
-[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control"]
+[node name="Buttons" type="HBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control" unique_id=1998020426]
 layout_mode = 2
 
-[node name="ExportButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/Buttons"]
+[node name="ExportButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/Buttons" unique_id=1112157163]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Export Standings and Pairings"
 
-[node name="ImportButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/Buttons"]
+[node name="ImportButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control/Buttons" unique_id=435020809]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Import Scores"
 
-[node name="DoneButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control"]
+[node name="DoneButton" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement/Control" unique_id=1230941558]
 layout_mode = 2
 size_flags_horizontal = 3
 text = "Cancel"
 
-[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement"]
+[node name="BottomPadding" type="MarginContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/GoogleSheetsManagement" unique_id=1455219028]
 layout_mode = 2
 size_flags_vertical = 3
 
-[node name="CsvExport" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane"]
+[node name="CsvExport" type="VBoxContainer" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane" unique_id=523563325]
 visible = false
 layout_mode = 2
 size_flags_horizontal = 3
 script = ExtResource("23_esrj1")
 
-[node name="OptionButton" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CsvExport"]
+[node name="OptionButton" type="OptionButton" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CsvExport" unique_id=1165431724]
 layout_mode = 2
-item_count = 2
 selected = 0
+item_count = 2
 popup/item_0/text = "Players"
 popup/item_0/id = 0
 popup/item_1/text = "Tables"
 popup/item_1/id = 1
 
-[node name="CsvBox" type="TextEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CsvExport"]
+[node name="CsvBox" type="TextEdit" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CsvExport" unique_id=444217343]
 layout_mode = 2
 size_flags_vertical = 3
 editable = false
 
-[node name="DoneCopying" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CsvExport"]
+[node name="DoneCopying" type="Button" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement/RightPane/CsvExport" unique_id=931290684]
 layout_mode = 2
 text = "Done"
 
-[node name="FileDialog" type="FileDialog" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement"]
+[node name="FileDialog" type="FileDialog" parent="VBoxContainer/MainContainer/TabContainer/TournamentManagementContainer/TournamentManagement" unique_id=523332100]
 title = "Save Tournament File"
 initial_position = 2
 size = Vector2i(800, 600)

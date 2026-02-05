@@ -16,7 +16,8 @@ class_name GoogleSheetsHandler
 @onready var error_block : VBoxContainer = $Error
 @onready var control_block : VBoxContainer = $Control
 
-@onready var request : HTTPRequest = $HTTPRequest
+# @onready var request : HTTPRequest = $HTTPRequest
+@onready var request: HTTPRequest = $HTTPRequest
 
 enum RequestStatus { NONE, EXPORT, IMPORT }
 var request_in_flight : RequestStatus = RequestStatus.NONE
@@ -73,7 +74,8 @@ func _on_export_pressed():
             "shuugi": shuugi
         }
 
-        request.request(post_url_format % [script_id_field.text], [], HTTPClient.METHOD_POST, JSON.stringify(body))
+        print(JSON.stringify(body))
+        request.request(post_url_format % [script_id_field.text], ["Content-Type: application/json"], HTTPClient.METHOD_POST, JSON.stringify(body))
 
 func _on_import_pressed():
     if request_in_flight == RequestStatus.NONE:
@@ -85,6 +87,7 @@ func _on_import_pressed():
 func _on_request_completed(_result, response_code, _headers, body):
     var parser = JSON.new()
     parser.parse(body.get_string_from_utf8())
+    print(parser.data)
     if request_in_flight == RequestStatus.IMPORT:
         if response_code == 200:
                 error_block.visible = false
@@ -93,7 +96,7 @@ func _on_request_completed(_result, response_code, _headers, body):
         else:
             _show_message("Error %d: %s" % [response_code, parser.data["error"]["message"]])
     else:
-        _show_message("Export complete.")
+        _show_message("Result: %s" % response_code)
     request_in_flight = RequestStatus.NONE
 
 func _on_hide_handler():
@@ -107,6 +110,9 @@ func _on_script_id_changed(new_text : String):
     data_store.tournament.settings.script_id = new_text
 
 func _handle_import(tables):
+    if tables == null:
+        _show_message("No tables found in spreadsheet.")
+        return
     var round_number = tables[0]
     var table_data = tables.slice(1)
 
@@ -152,4 +158,3 @@ func _show_message(error_message):
 func _construct_export_payload():
     var payload = {}
     payload["valueInputOption"] = "USER_ENTERED"
-    
