@@ -69,5 +69,5 @@ saves the most recent edits to ensure data integrity as much as possible.
 * Add integration with Google Sheets for importing/exporting tournament data.
 
 ## Contributing
-It should be possible to clone this repository and directly import it into Godot
-4.2.x or later.
+This fork has been updated from Godot 4.2 to Godot 4.6 stable (released 26 
+January 2026). Clone this repository and open in Godot 4.6 or later.
