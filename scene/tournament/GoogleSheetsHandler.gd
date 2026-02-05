@@ -43,9 +43,20 @@ func _ready():
 
     request.request_completed.connect(_on_request_completed)
 
+
+func disable_buttons():
+    export_button.disabled = true
+    import_button.disabled = true
+
+func enable_buttons():
+    export_button.disabled = false
+    import_button.disabled = false
+
+
 func _on_export_pressed():
     if request_in_flight == RequestStatus.NONE:
         request_in_flight = RequestStatus.EXPORT
+        disable_buttons()
 
         var round_number = data_store.tournament.next_round - 1
         var standings = []
@@ -74,12 +85,12 @@ func _on_export_pressed():
             "shuugi": shuugi
         }
 
-        print(JSON.stringify(body))
         request.request(post_url_format % [script_id_field.text], ["Content-Type: application/json"], HTTPClient.METHOD_POST, JSON.stringify(body))
 
 func _on_import_pressed():
     if request_in_flight == RequestStatus.NONE:
         request_in_flight = RequestStatus.IMPORT
+        disable_buttons()
         var table_size = 4 if data_store.tournament.settings.game_type == TournamentSettings.GameType.YONMA else 3
         var shuugi = data_store.tournament.settings.shuugi
         request.request(get_url_format % [script_id_field.text, table_size, shuugi])
@@ -104,6 +115,7 @@ func _on_hide_handler():
 
 func _on_error_button_clicked():
     error_block.visible = false
+    enable_buttons()
     control_block.visible = true
 
 func _on_script_id_changed(new_text : String):
